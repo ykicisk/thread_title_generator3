@@ -1,0 +1,19 @@
+version: '2.3'
+services:
+  dev:
+    build:
+      context: .
+      args:
+        UID: 1000
+        GID: 1000
+    runtime: nvidia
+    container_name: thread_generator
+    command: /bin/bash
+    tty: true
+    privileged: true
+    user: docker
+    ports:
+      - 8889:8889
+    volumes:
+      - ./workspace:/home/docker/workspace
+    command: jupyter lab --ip=0.0.0.0 --no-browser --port=8889
