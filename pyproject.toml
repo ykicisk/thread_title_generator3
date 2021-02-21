@@ -2,7 +2,7 @@
 name = "thread_title_generator"
 version = "0.1.0"
 description = ""
-authors = ["ykicisk <ykic.p3@gmail.com>"]
+authors = ["Yohei Iseki <ykic.p3@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
