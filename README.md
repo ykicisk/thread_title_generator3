@@ -83,3 +83,5 @@ http://<ホスト名>:8889/lab?
 本リポジトリでは、Chenらの[Adding A Filter Based on The Discriminator to Improve Unconditional Text Generation](https://arxiv.org/pdf/2004.02135.pdf)に従って、Generator・Filterと呼びます。
 
 Generatorでたくさんスレタイを生成し、Filterで高スコアのスレタイのみを出力します。
+
+更に詳細: https://ykicisk.hatenablog.com/entry/2021/02/21/194400
