@@ -6,7 +6,7 @@ Transformerとsentencepieceを利用してなんJスレッドタイトルっぽ�
 
 ## 生成例
 
-※ここに記載する上で内容があまりにも相応しくないスレッドタイトルは除いています。全文は[output_samples](./output_samples)を確認してください。
+※内容がここに記載する上で相応しくないスレッドタイトルは除いています。全文は[output_samples](./output_samples)を確認してください。
 
 スレタイの後ろの数値は後述のFilterによるスコアです。
 
